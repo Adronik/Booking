@@ -19,6 +19,8 @@ public class BookingTest {
         searchResultsPage.selectOnePerson();
         searchResultsPage.clickFindButton();
         searchResultsPage.selectCheapestHotel();
+        searchResultsPage.selectRoom();
+        searchResultsPage.clickOnBookRoomButton();
 
     }
 

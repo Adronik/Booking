@@ -11,7 +11,7 @@ public class BasePage extends PageFactory {
     }
 
     public void waitForPageLoad(){
-        WebDriverManager.driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+        WebDriverManager.driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
     }
 
 }
